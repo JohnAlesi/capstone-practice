@@ -1,0 +1,101 @@
+
+
+
+
+
+body {
+	background-image: url(../Images/bgimage.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center top;
+	max-width: 100%;
+	border:0;
+	margin:0;
+	padding:0;
+	color: white;
+	min-height: 100vh;
+}
+
+.navbar-brand {
+	font-family: 'Monofett', cursive;
+	font-size: 30px;
+}
+
+.nav-link {
+	color: white;
+	font-size: 14px;
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+.contactus {
+	font-family: 'BioRhyme Expanded', serif;
+	text-align: center;
+}
+
+.gmail {
+	font-size: 12px;
+}
+
+h1 {
+	font-family: 'BioRhyme Expanded', serif;
+}
+.titles {
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+.footer {
+	color: black;
+	background-color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-family: 'BioRhyme Expanded', serif;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	z-index: -1
+}
+
+@media only screen and (max-width: 425px) {
+
+.image {
+	background-image: url(../images/image2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center top;
+	max-width: 100%;
+	
+}
+
+.navbar-brand {
+	font-family: 'Monofett', cursive;
+	font-size: 20px;
+}
+
+.nav-link {
+	font-size: 9px;
+}
+
+.gmail {
+	font-size: 9px;
+}
+
+.titles {
+	font-size: 14px;
+}
+
+.footer {
+	background-color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-family: 'BioRhyme Expanded', serif;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	z-index: -1
+}
+}

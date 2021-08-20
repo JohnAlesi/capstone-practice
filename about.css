@@ -1,0 +1,80 @@
+
+body {
+	background-image: url(../Images/bgimage.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center top;
+	max-width: 100%;
+	border:0;
+	margin: 0;
+	padding: 0;
+
+}
+/* Nav */
+.navbar-brand {
+	font-family: 'Monofett', cursive;
+	font-size: 30px;
+}
+
+.nav-link {
+	font-family: 'BioRhyme Expanded', serif;
+	font-size: 14px;
+}
+
+
+/* Content */
+.aboutmeh1 {
+	color: white;
+	font-size: 24px;
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+.aboutmep {
+	color: white;
+	font-size: 16px;
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+.footer {
+	background-color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-family: 'BioRhyme Expanded', serif;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	z-index: -1;
+}
+
+@media only screen and (max-width: 425px) {
+.navbar-brand {
+	font-size: 20px;
+}
+
+.nav-link {
+	font-size: 8px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 14px;
+}
+
+.footer {
+	background-color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-family: 'BioRhyme Expanded', serif;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	z-index: -1
+}
+}

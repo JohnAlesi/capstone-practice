@@ -1,0 +1,185 @@
+
+html {
+	font-size: 100%;
+}
+
+
+
+
+.image {
+	background-image: url(../Images/image2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center top;
+	max-width: 100%;
+}
+
+
+body {
+	border-top: 0;
+}
+/*navbar*/
+
+.navbar-brand {
+	font-family: 'Monofett', cursive;
+	font-size: 30px;
+}
+
+.nav-link {
+	font-family: 'BioRhyme Expanded', serif;
+	font-size: 14px;
+}
+
+/* Heading content starts here */
+
+
+.p2 {
+	padding-top: 25%;
+	color: white;
+	text-align: left;
+	font-size: 32px;
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+.p1 {
+	color: white;
+	text-align: left;
+	font-size: 16px;
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+
+.hireme {
+	font-family: 'BioRhyme Expanded', serif;
+	margin-right: 70%;
+	position: relative;
+}
+/* Footer */
+
+.footer {
+	background-color: black;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	position: fixed;
+	z-index: -1;
+}
+
+.footdiv1 {
+	text-align: center;
+	font-family: 'BioRhyme Expanded', serif;
+	font-size: 11px;
+}
+
+.footdiv2 {
+	text-align: center;
+	font-family: 'BioRhyme Expanded', serif;
+	font-size: 11px;
+}
+
+.attitude {
+	text-align: left;
+	list-style-type: none;
+	padding-left: 30px;
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+.modal-header {
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+.progress-bar {
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+.btn-modal {
+	font-family: 'BioRhyme Expanded', serif;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+.image {
+	background-image: url(../images/image2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center top;
+	max-width: 100%;
+	
+}
+
+.navbar-brand {
+	font-size: 20px;
+}
+
+.nav-link {
+	font-size: 9px;
+}
+
+.footer {
+	color: white;
+	background-color: black;
+	font-size: 14px;
+	position: fixed;
+}
+
+.intro {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+  	top: 15px;
+  	text-align: left;
+  	text-align: justify;
+}
+
+.p2{
+	padding-top: 60%;
+}
+.p1 {
+	padding-top: 0%;
+}
+.hireme {
+	position: absolute;
+	margin-right: 50%;
+
+}
+}
+
+@media only screen and (max-width: 425px) {
+.navbar-brand {
+	font-size: 20px;
+}
+
+.nav-link {
+	font-size: 8px;
+}
+
+.p2{
+	padding-top: 50%;
+}
+.p1 {
+	padding-top: 0%;
+}
+.hireme {
+	position: absolute;
+	margin-right: 60%;
+
+}
+
+.intro {
+	position: absolute;
+	width: 200px;
+	height: 100px;
+  	top: 15px;
+  	text-align: left;
+  	text-align: justify;
+}
+
+.footer {
+	position: fixed;
+	z-index: -1 
+	}
+}
